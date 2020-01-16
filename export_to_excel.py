@@ -1,6 +1,6 @@
 import xlwt
 import numpy as np
-from datetime import datetime
+from tqdm import tqdm
 
 
 def convert2excel():
@@ -20,7 +20,7 @@ def convert2excel():
     for q in range(saved_log.shape[1] - 5):
         ws.write(0, 5 + q, ''.join(['CPU', str(q)]))
 
-    for i in range(saved_log.shape[0]):
+    for i in tqdm(range(saved_log.shape[0])):
         ws.write(i + 1, 0, saved_log[i, 0])
         ws.write(i + 1, 1, saved_log[i, 0 + 1])
         ws.write(i + 1, 2, saved_log[i, 1 + 1])

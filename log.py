@@ -58,6 +58,7 @@ def scan(stamp):
 
 
 def start_logging():
+    print 'Starting to log...'
     cnt = 0
     while True:
         sample = scan(cnt)

@@ -2,7 +2,7 @@
 For CentOS 7.6:
 ```
 sudo yum install python-matplotlib.x86_64
-sudo pip2 install numpy psutil
+sudo pip2 install numpy psutil xlwt tqdm
 ```
 
 # Usage
