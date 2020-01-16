@@ -15,3 +15,8 @@ To plot the logged data:
 ```
 python2 plot.py
 ```
+
+To export logged data into an excel file:
+```
+python2 export_to_excel.py
+```
