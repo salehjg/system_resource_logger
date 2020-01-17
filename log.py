@@ -64,10 +64,10 @@ def start_logging():
         sample = scan(cnt)
         samples.append(sample.get_log())
         cnt = cnt + 1
-        if cnt % 60 == 0:
+        if cnt % 64 == 0:
             print 'data dumped.'
             np.save('data.npy', samples)
-        time.sleep(1)
+        time.sleep(INTERVAL_SEC)
 
 
 def main():
