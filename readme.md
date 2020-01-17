@@ -1,4 +1,5 @@
 <p align="center"><img src="https://github.com/salehjg/system_resource_logger/blob/master/99_example_plot_output.png" /></p>
+<p align="center"><img src="https://github.com/salehjg/system_resource_logger/blob/master/99_example_usedcorecount_output.png" /></p>
 
 # System Resource Logger
 A simple python2 script to log system resources over time using python-psutil!
