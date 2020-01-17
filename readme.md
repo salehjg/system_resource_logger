@@ -2,6 +2,8 @@
 
 # System Resource Logger
 A simple python2 script to log system resources over time using python-psutil!
+* X-Axis: Time(minutes)
+* Y-Axis: Value(GB, Percentage) 
 
 # Installation
 For CentOS 7.6:
