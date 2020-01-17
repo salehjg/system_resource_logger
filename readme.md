@@ -22,3 +22,6 @@ To export logged data into an excel file:
 ```
 python2 export_to_excel.py
 ```
+  
+<p align="center"><img src="https://github.com/salehjg/system_resource_logger/blob/master/99_example_plot_output.png" /></p>
+
